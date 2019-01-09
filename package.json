@@ -1,0 +1,21 @@
+{
+  "name": "micro-test",
+  "version": "0.0.1",
+  "description": "just test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
